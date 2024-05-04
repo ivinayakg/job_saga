@@ -1,6 +1,5 @@
 from django.db import models
 from base.models import BaseModel
-from users.models import User
 
 
 class JobStatus(models.TextChoices):
